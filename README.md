@@ -1,4 +1,5 @@
 # 💖달라달라 - 도서 판매 사이트💖
+
 <br/>
 
 ## 📅프로젝트 기간📅
@@ -9,32 +10,36 @@
 ## ✏️기술 스택 및 도구✏️
 
 ### 프론트엔드
-  ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff)
-  ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
 
 ### 백엔드
-  ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=ffffff)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=ffffff)
-  ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=ffffff)
-  ![SWAGGER](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=000000)
+
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=ffffff)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=ffffff)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=ffffff)
+![SWAGGER](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=000000)
 
 ### 기획 및 배포
-  ![GITLAB](https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=ffffff)
-  ![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=ffffff)
-  ![NOTION](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=ffffff)
+
+![GITLAB](https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=ffffff)
+![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=ffffff)
+![NOTION](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=ffffff)
 
 <br/>
 
 ## 🤸‍♀️프로젝트 팀원🤸
 
-|  이름  |    포지션    |
-| :----: | :--------: |
-| 오강산(팀장) | B.E, F.E  |
-| 박철휘 |  B.E, F.E   |
-| 김민희 | F.E  |
-| 김세연 | F.E  |
-| 송은지 | F.E  |
+|     이름     |  포지션  |
+| :----------: | :------: |
+| 오강산(팀장) | B.E, F.E |
+|    박철휘    | B.E, F.E |
+|    김민희    |   F.E    |
+|    김세연    |   F.E    |
+|    송은지    |   F.E    |
+
 <br/>
 
 ## 📌주요 화면 구성📌
@@ -49,12 +54,12 @@
   - 비밀번호 변경
   - 주문, 배송조회
   - 장바구니, 주문, 결제
-- 관리자 페이지 
+- 관리자 페이지
   - 도서 목록 조회, 등록, 수정 / 카테고리 등록, 수정
   - 주문, 배송 관리
   - 장바구니
 - 회원 탈퇴
-<br/>
+  <br/>
 
 ## ✔️기능 구현 사항✔️
 
@@ -101,34 +106,40 @@
   - [x] 주문 삭제 - 관리자는 관리 페이지에서 사용자들의 주문 내역을 삭제할 수 있다.
   - [x] 주문 정보 - db에 배송 상태가 저장된다.
   - [x] 주문 정보 - db에 배송지 정보, 주문 총액, 수령자 이름 및 연락처가 저장된다.
-<br/>
+        <br/>
 
 ## ❓사용법❓
 
 ### 로컬에서 사용하기
 
 1. 리포지토리 클론
+
 ```bash
 git clone https://kdt-gitlab.elice.io/sw_track/class_07/web_project/team06/daladala.git
 ```
 
 2. 패키지 설치
+
 ```bash
 npm i
 ```
 
 3. 환경변수 설정
-  - 생성된 .env파일에 배포할 포트 번호와 Mongo DB URL을 입력
-``` bash
+
+- 생성된 .env파일에 배포할 포트 번호와 Mongo DB URL을 입력
+
+```bash
 cp .env.sample .env
 ```
 
 4. 실행
-``` bash
+
+```bash
 npm run dev
 ```
 
 ### 배포 서버에서 사용하기
+
 ```bash
 // 사이트 주소
 http://kdt-sw-7-team06.elicecoding.com/
@@ -138,10 +149,8 @@ http://kdt-sw-7-team06.elicecoding.com/api-docs -> API 문서
 ID: admin1@admin1.com
 PW: adminAdmin1!
 
+
 // 일반 계정
 ID: user1@user1.com
 PW: user1User1!
 ```
-
-
-
